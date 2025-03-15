@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/add_comment"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/comment_background"
+    android:elevation="1dp"
+    android:padding="16dp">
+
+    <!-- plus -->
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:alpha="0.7"
+        android:src="@drawable/plus"
+        />
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/light_gray"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/dodaj_komentar" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/comment_background"
+    android:elevation="0dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <!-- Korisnik -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:alpha="0.8"
+            android:contentDescription="@string/menu_icon_user"
+            android:src="@drawable/user"
+            />
+
+        <!-- Ocene zvezdice -->
+        <LinearLayout
+            android:id="@+id/ratingStars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <!-- Komentar -->
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/komentar" />
+</LinearLayout>

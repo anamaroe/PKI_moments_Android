@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/confirm_scheduling_dialog"
+    android:gravity="center">
+
+    <!-- Tekst u dijalogu -->
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ovo je poruka"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_reg"
+        android:textColor="@color/dark_grey"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Dugme OK -->
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_grey"
+        android:text="@string/ok"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_reg"
+        android:layout_gravity="center" />
+
+</LinearLayout>

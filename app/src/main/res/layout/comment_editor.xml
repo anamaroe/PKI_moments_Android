@@ -1,0 +1,109 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novi_komentar"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_reg"
+        android:textColor="@color/light_gray"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ocena"
+            android:fontFamily="@font/montserrat_reg"
+            android:textColor="@color/dark_grey"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:layout_gravity="start" />
+
+        <EditText
+            android:id="@+id/rating"
+            android:layout_marginStart="27dp"
+            android:paddingStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints="10"
+            android:textSize="15sp"
+            android:hint="@string/unesi_ocenu"
+            android:backgroundTint="@color/light_gray"
+            android:inputType="text"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/komentar"
+            android:paddingTop="9dp"
+            android:fontFamily="@font/montserrat_reg"
+            android:textColor="@color/dark_grey"
+            android:gravity="center"
+            android:layout_gravity="start" />
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingStart="10dp"
+            android:textSize="15sp"
+            android:autofillHints="10"
+            android:hint="@string/unesi_komentar"
+            android:backgroundTint="@color/light_gray"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/dark_grey"
+            android:text="@string/otkazi" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/dark_grey"
+            android:fontFamily="@font/montserrat_reg"
+            android:text="@string/potvrdi" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Ceo sadrzaj osim footera (da bi on bio na dnu) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Naslov -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trenuci"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#959595"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_marginBottom="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/za_pamcenje"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#959595"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_marginBottom="2dp"/>
+
+        <!-- Linija -->
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="2sp"
+            android:layout_gravity="center"
+            android:background="#959595"
+            tools:ignore="SmallSp">
+        </LinearLayout>
+
+        <!-- Podnaslov -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="13sp"
+            android:fontFamily="@font/montserrat_reg"
+            android:text="@string/login_podnaslov"/>
+
+        <!-- LOGIN naslov -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat_reg"
+            android:textColor="#626262"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:text="@string/login"/>
+
+        <!-- Korisnicko ime -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/user"
+                android:alpha="0.777"
+                />
+            <EditText
+                android:id="@+id/korime"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
+                android:hint="@string/korisnicko_ime"
+                android:textSize="14sp"
+                android:fontFamily="@font/montserrat_reg"
+                android:textColor="@color/light_gray"
+                android:inputType="text"
+                android:backgroundTint="@color/light_gray"
+                />
+        </LinearLayout>
+
+        <!-- Lozinka -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/lock"
+                android:alpha="0.777"
+                />
+            <EditText
+                android:id="@+id/lozinka"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:hint="@string/lozinka"
+                android:padding="12dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/montserrat_reg"
+                android:textColor="@color/light_gray"
+                android:backgroundTint="@color/light_gray"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <!-- Dugme login -->
+        <Button
+            android:id="@+id/loginDugme"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:minHeight="50dp"
+            android:textSize="18sp"
+            android:text="@string/login"/>
+    </LinearLayout>
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/very_light_gray"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text"
+        android:textSize="12sp"
+        android:fontFamily="@font/montserrat_reg"
+        android:textColor="@color/light_gray"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"/>
+    </LinearLayout>
+
+</LinearLayout>

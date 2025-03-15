@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Naslov -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/vencanja_naslov"
+                android:textSize="24sp"
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/montserrat_reg"
+                android:textColor="@color/light_gray" />
+
+            <!-- Linija -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="14dp"
+                android:background="#808080" />
+
+            <!-- Ponude -->
+
+            <!-- O rodjendanu -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/go_weddings"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/wed_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ponude_wedi"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/montserrat_reg"
+                    android:textAlignment="center"
+                    android:text="@string/opis_vencanja_detaljno"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/montserrat_reg"
+                    android:gravity="center"
+                    android:textColor="@color/light_gray"
+                    android:text="@string/cena_2000"
+                    />
+                <Button
+                    android:id="@+id/button_add_to_cart_wedding"
+                    android:layout_width="wrap_content"
+                    android:backgroundTint="@color/dark_grey"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_reg"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="30dp"
+                    android:minHeight="50dp"
+                    android:textSize="18sp"
+                    android:text="@string/dodaj_u_korpu"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/light_gray"
+                android:text="@string/ocene_i_komentari"
+                android:fontFamily="@font/montserrat_reg"
+                />
+
+            <!-- Komentari  -->
+            <LinearLayout
+                android:id="@+id/comment_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Meni -->
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#3FFFFFFF"
+        android:elevation="4dp"
+        android:padding="8dp">
+
+        <!-- Prva stavka menija -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/go_home"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/home_icon"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:alpha="0.77"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/home" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_home"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="@color/dark_grey" />
+        </LinearLayout>
+
+        <!-- Druga stavka menija -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/go_about"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/about_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.83"
+                android:src="@drawable/bow2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_about"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="@color/dark_grey" />
+        </LinearLayout>
+
+        <!-- Treća stavka menija -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/go_offers"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/offers_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.88"
+                android:src="@drawable/happy_birthday_cake_icon_8"
+                android:contentDescription="@string/menu_icon_cake" />
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/rounded_line" />
+        </LinearLayout>
+
+        <!-- Cetvrta stavka menija -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/go_cart"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- alpha je opacity za sliku -->
+            <ImageView
+                android:id="@+id/cart_icon"
+                android:alpha="0.775"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/basket2"
+                android:contentDescription="@string/menu_icon_basket" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_cart"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="@color/dark_grey" />
+        </LinearLayout>
+
+
+        <!-- Peta stavka menija -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/go_profile"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/profile_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.875"
+                android:src="@drawable/uuu"
+                android:contentDescription="@string/menu_profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_profile"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="@color/dark_grey" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

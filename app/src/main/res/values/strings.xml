@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Moments</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- naslovi -->
+    <string name="title_home_page">PORTFOLIO</string>
+    <string name="title_about_page">O NAMA</string>
+    <string name="title_offers_page">PONUDE</string>
+    <string name="title_basket_page">KORPA</string>
+    <string name="title_profile_page">PROFIL</string>
+
+    <!-- dijalozi -->
+    <string name="otkazi">OTKAŽI</string>
+    <string name="potvrdi">POTVRDI</string>
+    <string name="ukloni">UKLONI</string>
+    <string name="ok">OK</string>
+    <string name="datum">datum</string>
+
+    <!-- meni -->
+    <string name="menu_home">početna</string>
+    <string name="menu_about">o nama</string>
+    <string name="menu_offers">ponude</string>
+    <string name="menu_cart">korpa</string>
+    <string name="menu_profile">profil</string>
+
+    <!-- meni, opis ikonica -->
+    <string name="menu_icon_home">home</string>
+    <string name="menu_icon_bow">bow</string>
+    <string name="menu_icon_cake">cake</string>
+    <string name="menu_icon_basket">basket</string>
+    <string name="menu_icon_user">user</string>
+
+    <!-- login stranica -->
+    <string name="trenuci">TRENUCI</string>
+    <string name="za_pamcenje">ZA PAMĆENJE</string>
+    <string name="login_podnaslov">- profesionalna organizacija nezaboravnih dogadjaja -</string>
+    <string name="login">LOGIN</string>
+    <string name="korisnicko_ime">Korisničko ime</string>
+    <string name="lozinka">Lozinka</string>
+    <string name="footer_text">LOLA STUDIO\n2020 – 2024\nTRENUCI ZA PAMĆENJE</string>
+
+    <!-- about stranica -->
+    <string name="kontakt">KONTAKT: 067 123 456</string>
+
+    <!-- ponude -->
+    <string name="opis_rodjendana">Detaljno osmišljenim programom stvaramo savršenu atmosferu za vaš rođendan, koji slavljeničku radost pretvara u nezaboravno iskustvo.</string>
+    <string name="opis_vencanja">Stvaramo čarobnu atmosferu koja odražava ljubav i čini vaš poseban dan nezaboravnim.</string>
+    <string name="opis_punoletstva">Obeležite svoj 18. rođendan uz nezaboravnu proslavu koja spaja radost, zabavu i nezamenjive uspomene.</string>
+    <string name="opis_godisnjica">Proslavite važne godine ljubavi, uspeha ili prijateljstva uz pažljivo osmišljene događaje koji slave vašu priču.</string>
+    <string name="opis_matura">Obeležite kraj jednog poglavlja i početak novog uz nezaboravnu proslavu mature!</string>
+    <string name="opis_korporativnih">Profesionalno osmišljeni događaji koji jačaju timski duh i ostavljaju snažan utisak.</string>
+
+    <!-- ponude, detaljno -->
+    <string name="opis_rodjendana_detaljno">Proslava rođendana je savršen trenutak za okupljanje porodice i prijatelja u opuštenoj i radosnoj atmosferi. Naša agencija „Trenuci za pamćenje“ nudi sve što vam je potrebno za nezaboravan događaj: dekoraciju, muziku, kreativne igre za decu i raznovrstan meni prilagođen vašim željama. Bez obzira na to da li organizujete mali porodični ručak ili veliku zabavu, tu smo da svaki detalj učinimo posebnim i stvorimo uspomene koje ćete pamtiti zauvek.</string>
+    <string name="opis_vencanja_detaljno">Vaš poseban dan zaslužuje pažnju do najsitnijeg detalja. Agencija „Trenuci za pamćenje“ kreira venčanja koja odišu elegancijom i stilom, prilagođena vašim željama. Od dekoracije i muzike do savršenog ambijenta, stvorićemo trenutke koji se pamte zauvek.</string>
+    <string name="opis_punoletstva_detaljno">Osamnaesti rođendan je trenutak kada se otvara novo poglavlje života, i zaslužuje da bude obeležen na poseban način. Agencija „Trenuci za pamćenje“ pruža vam sve što vam je potrebno za savršenu proslavu – od Kreativne dekoracije do muzike koja podiže atmosferu. Neka vaše punoletstvo bude ispunjeno smehom, zabavom i trenutnim uspomenama koje ćete pamtiti zauvek!</string>
+    <string name="opis_godisnjica_detaljno">Proslava godišnjica je prilika da obeležite važne trenutke u životu, bilo da se radi o godišnjici braka, poslovnog uspeha ili posebnog prijateljstva. Agencija „Trenuci za pamćenje“ nudi jedinstvene ideje i vrhunsku organizaciju kako bi vaša godišnjica bila nezaboravna. Uživajte u pažljivo osmišljenim dekoracijama, prilagođenom meniju i atmosferi koja odražava vaš stil i priču.</string>
+    <string name="opis_matura_detaljno">Proslava mature je poseban trenutak koji zaslužuje savršen događaj. Agencija „Trenuci za pamćenje“ nudi vrhunsku organizaciju i kreativne ideje za dekoraciju, muziku i atmosferu koja odražava vašu energiju i uspeh. Stvorimo zajedno uspomene za ceo život!</string>
+    <string name="opis_korporativnih_detaljno">Bilo da planirate konferenciju, seminar, team building ili svečanu proslavu, agencija „Trenuci za pamćenje“ pruža kompletnu organizaciju korporativnih događaja. Naš cilj je da stvorimo događaje koji inspirišu, povezuju i ostavljaju snažan utisak na vaše saradnike i klijente.</string>
+
+    <!-- ponude naslovi -->
+    <string name="rodjendani_naslov">ROĐENDANI</string>
+    <string name="vencanja_naslov">VENČANJA</string>
+    <string name="punoletstva_naslov">PUNOLETSTVA</string>
+    <string name="godisnjice_naslov">GODIŠNJICE</string>
+    <string name="mature_naslov">MATURE</string>
+    <string name="korp_naslov">KORPORATIVNI DOGAĐAJI</string>
+
+    <!-- ponude, razno -->
+    <string name="dodaj_u_korpu">DODAJ U KORPU</string>
+    <string name="ocene_i_komentari">OCENE I KOMENTARI</string>
+    <string name="dodaj_komentar">DODAJ KOMENTAR</string>
+    <string name="novi_komentar">NOVI KOMENTAR</string>
+    <string name="ocena">ocena</string>
+    <string name="komentar">komentar</string>
+    <string name="komentar_fantasticno">Fantasticno! Proslava je bila sjajna, sve je bilo lepo organizovano, ali mislim da bi dekoracija mogla biti malo bolja. Sve u svemu, zadovoljni smo!</string>
+    <string name="komentar_super">Super!</string>
+    <string name="komentar_cestitke">Super sramite se cestitke</string>
+    <string name="komentar_kako_treba">Sve je bilo baš kako treba, od dekoracije do hrane. Možda smo mogli malo bolju muziku, ali stvarno je bilo fenomenalno</string>
+    <string name="cena_100">cena: 100 €</string>
+    <string name="cena_200">cena: 200 €</string>
+    <string name="cena_500">cena: 500 €</string>
+    <string name="cena_600">cena: 600 €</string>
+    <string name="cena_2000">cena: 2000 €</string>
+    <string name="zakazivanje">ZAKAZIVANJE</string>
+    <string name="broj_gostiju">broj gostiju</string>
+    <string name="unesi_komentar">unesite komentar</string>
+    <string name="unesi_ocenu">unesite ocenu od 1 do 5</string>
+
+    <!-- korpa, razno -->
+    <string name="korpa_potvrdjeno">Zahtev za zakazivanjem događaja je prosleđen administratoru.</string>
+    <string name="da">DA</string>
+    <string name="ne">NE</string>
+
+    <!-- korpa, filler txts -->
+    <string name="dogadjaj_korpa">DOGADJAJ</string>
+    <string name="datum_korpa">dd.mm.gggg.</string>
+    <string name="gosti_korpa">10 gostiju</string>
+    <string name="cena_korpa">1000 €</string>
+    <string name="ukloni_iz_korpe">Ukloni iz korpe:\n</string>
+
+    <!-- profil -->
+    <string name="obavestenja">obaveštenja</string>
+    <string name="obavestenja_naslov_veliko">OBAVEŠTENJA</string>
+    <string name="zatvori">ZATVORI</string>
+    <string name="odjava">logout</string>
+    <string name="korisnicko_ime_malo">korisničko ime</string>
+    <string name="ime">ime</string>
+    <string name="prezime">prezime</string>
+    <string name="telefon">telefon</string>
+    <string name="adresa">adresa</string>
+    <string name="izmeni_podatke">IZMENI\nPODATKE</string>
+    <string name="izmeni_lozinku">IZMENI\nLOZINKU</string>
+    <string name="filler">neki tekst</string>
+    <string name="stara_lozinka">stara lozinka</string>
+    <string name="nova_lozinka">nova lozinka</string>
+    <string name="ponovi_lozinku">ponovi lozinku</string>
+
+    <!-- profil, notifications -->
+    <string name="notif_hour">22:10</string>
+    <string name="notif_date">5.1.2025.</string>
+    <string name="notif_event1">Rođendan</string>
+    <string name="notif_event2">Godišnjica</string>
+    <string name="notif_date_event1">10.9.2025.</string>
+    <string name="notif_date_event2">24.2.2025.</string>
+    <string name="notif_guests1">Broj gostiju: 30</string>
+    <string name="notif_guests2">Broj gostiju: 35</string>
+    <string name="notif_potvrdjeno">Potvrđeno</string>
+    <string name="notif_odbijeno">Odbijeno</string>
+
+    <!-- svasta -->
+    <string name="broj_gostiju_korpa">"broj gostiju: "</string>
+    <string name="euro">" €"</string>
+    <string name="da_li_zelite_da_se_odjavite">Da li želite da se odjavite?</string>
+    <string name="sacuvaj">SAČUVAJ</string>
+    <string name="korpa_je_prazna">Korpa je prazna.</string>
+
+</resources>

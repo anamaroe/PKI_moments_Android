@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/confirm_scheduling_dialog"
+    android:gravity="center">
+
+    <!-- Tekst u dijalogu -->
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ukloni_iz_korpe"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_reg"
+        android:textColor="@color/dark_grey"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Dugmad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:text="@string/ne"
+            android:textSize="14sp"
+            android:layout_marginEnd="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:text="@string/da"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

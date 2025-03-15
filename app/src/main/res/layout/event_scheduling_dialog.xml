@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zakazivanje"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_reg"
+        android:textColor="@color/light_gray"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datum"
+        android:fontFamily="@font/montserrat_reg"
+        android:textColor="@color/light_gray"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="start" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:calendarTextColor="@color/light_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etGuests"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="10"
+        android:hint="@string/broj_gostiju"
+        android:backgroundTint="@color/light_gray"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_reg"
+        android:inputType="number" />
+
+    <!-- tekst ce se svakako dinamicki promeniti -->
+    <TextView
+        android:id="@+id/dialogPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/light_gray"
+        android:text="Dodaj u korpu? Cena je €."
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_reg"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/dark_grey"
+            android:text="@string/otkazi" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:backgroundTint="@color/dark_grey"
+            android:fontFamily="@font/montserrat_reg"
+            android:text="@string/potvrdi" />
+    </LinearLayout>
+
+</LinearLayout>
